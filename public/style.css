@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-color: #23252C;
+}
+
+.app-container {
+    margin: 50px auto auto auto;
+    height: 780px;
+    width: 320px;
+    background-color: #1A1B21;
+}
+
+#profile-image {
+    width: 100%;
+    /* border-radius: 20px 20px 0px 0px; */
+}
