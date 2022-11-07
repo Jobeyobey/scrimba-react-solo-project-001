@@ -11,22 +11,22 @@ I plan to make the top-left business card here: https://www.figma.com/file/Z81qm
 - Create a div to contain the whole business card element :white_check_mark:
 
 - Create an Info component to render:
-    - <img> tag to for my photo.
-        - Find an image to place in my project and save it in a local folder to access
-    - <h> tag for my name
-    - <h> tag for my role
-    - <a> tag for my website
-    - <div> to contain my buttons
-        - <button> tags - flex
+    - img tag to for my photo. :white_check_mark:
+        - Find an image to place in my project and save it in a local folder to access :white_check_mark:
+    - h tag for my name :white_check_mark:
+    - h tag for my role :white_check_mark:
+    - a tag for my website :white_check_mark:
+    - div to contain my buttons :white_check_mark:
+        - button tags - flex 
 
 - Create an About component to render:
-    - <h> tag for title
-    - <p> tag for text
+    - h tag for title :white_check_mark:
+    - p tag for text :white_check_mark:
 
 - Create an Interests component to render:
-    - <h> tag for title
-    - <p> tag for text
+    - h tag for title :white_check_mark:
+    - p tag for text :white_check_mark:
 
 - Create a Footer component to render:
-    - <div> to contain icons
-        - <a> tags with FontAwesome to for social links
+    - div to contain icons :white_check_mark:
+        - a tags with FontAwesome to for social links :white_check_mark:
