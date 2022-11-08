@@ -10,7 +10,7 @@ body {
 
 .app-container {
     margin: 50px auto auto auto;
-    height: 780px;
+    /* height: 780px; */
     width: 320px;
     background-color: #1A1B21;
 }
