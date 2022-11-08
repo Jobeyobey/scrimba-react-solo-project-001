@@ -5,10 +5,9 @@ import { faSquareInstagram, faSquareGithub, faLinkedin } from "@fortawesome/free
 export default function Footer() {
     return(
         <footer>
-            <h1>Footer Below</h1>
-            <a href="" target="_blank"><FontAwesomeIcon icon={faSquareGithub} /></a>
-            <a href="" target="_blank"><FontAwesomeIcon icon={faSquareInstagram} /></a>
-            <a href="" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="https://github.com/Jobeyobey" target="_blank"rel="noreferrer"><FontAwesomeIcon icon={faSquareGithub} /></a>
+            <a href="https://www.instagram.com/jobeyobeyo/?hl=en" target="_blank"rel="noreferrer"><FontAwesomeIcon icon={faSquareInstagram} /></a>
+            <a href="https://www.linkedin.com/in/joehollands/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
         </footer>
     )
 }

@@ -6,16 +6,128 @@ body {
     margin: 0;
     color: white;
     background-color: #23252C;
+    font-family: "Inter", sans-serif;
 }
 
 .app-container {
     margin: 50px auto auto auto;
     /* height: 780px; */
     width: 320px;
+    border-radius: 10px;
     background-color: #1A1B21;
 }
 
 #profile-image {
     width: 100%;
-    /* border-radius: 20px 20px 0px 0px; */
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info-container {
+    text-align: center;
+}
+
+.info-container h2 {
+    font-weight: 700;
+    margin: 21 0 5 0;
+    font-size: 25px;
+}
+
+.info-container h3 {
+    font-weight: 400;
+    margin: 0 0 0 0;
+    font-size: 13px;
+    color: #F3BF99;
+}
+
+.info-container a {
+    display: block;
+    font-weight: 400;
+    font-size: 11px;
+    margin: 9 0 15 0;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.email {
+    background-color: #ffffff;
+    color: black;
+    width: 115px;
+    height: 34px;
+    border: none;
+    border-radius:  6px;
+    padding: 9 26;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .github {
+    background-color: #5093E2;
+    color: white;
+    width: 115px;
+    height: 34px;
+    border: none;
+    border-radius:  6px;
+    padding: 9 26;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+.about {
+    margin: 33 35 0 35;
+}  
+
+.about h1 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5;
+}
+
+.interests {
+    margin: 20 35 30 35;
+}
+
+.interests h1 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.interests p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 73 0 73;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+    height: 64px;
+}
+
+footer a {
+    color: #918E9B;
+    font-size: 30px;
 }
