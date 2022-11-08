@@ -84,6 +84,18 @@ body {
     cursor: pointer;
   }
 
+  .github:hover {
+    background-color: #4082d1;
+    transition-duration: 0.3s;
+  }
+
+  .email:hover {
+    background-color: #e7e7e7;
+    transition-duration: 0.1s;
+  }
+
+ 
+
 .about {
     margin: 33 35 0 35;
 }  
@@ -98,6 +110,7 @@ body {
     font-weight: 400;
     font-size: 12px;
     margin-top: 5;
+    line-height: 1.35;
 }
 
 .interests {
@@ -114,6 +127,7 @@ body {
     font-weight: 400;
     font-size: 12px;
     margin-top: 5;
+    line-height: 1.35;
 }
 
 footer {
@@ -130,4 +144,9 @@ footer {
 footer a {
     color: #918E9B;
     font-size: 30px;
+}
+
+footer a:hover {
+    color: #b9b9b9;
+    transition-duration: 0.1s;
 }
